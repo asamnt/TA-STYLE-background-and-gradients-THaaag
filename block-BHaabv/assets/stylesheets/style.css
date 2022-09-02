@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: #1d2029;
+    color: white;
+}
+.container{
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 42px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Heading*/
+.header{
+    padding: 50px 0;
+    background-color: #20222f;
+    padding-bottom: 150px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header h1{
+    font-size: 24px;
+}
+header h4{
+    font-size: 12px;
+    color: wheat;
+}
+.btn-container span{
+    font-size: 10px;
+    color: wheat;   
+}
+.btn{
+    width: 35px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+    padding-left: 2px;
+    background: linear-gradient(to right, #2a7c62,#3a73a5);
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #252b42;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+/*Part Continer*/
+main{
+    margin-top: 100px;
+}
+.partcontainer{
+    padding: 50px 0;
+}
+
+.main-container{
+    padding: 50px 0;
+}
+
+.partcontainer img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.part{
+    background-color: #252b43;
+    padding: 32px;
+    text-align: center;
+    width: 23%;
+    color: wheat;
+    border-radius: 6px;
+    position: relative;
+}
+.part h2{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    line-height: 1;
+}
+.partbody{
+    padding: 30px 0;
+}
+.partbody p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 6px;
+}
+.partfooter img{
+    margin-right: 4px;
+    width: 10px;
+}
+.partfooter span{
+    color: green;
+    font-size: 10px;
+}
+.topborder{
+    width: 100%;
+    height: 4px;
+    background-color: #198ff5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.twitter .topborder{
+    background-color: #1ba2f2;
+}
+.insta .topborder{
+    background: linear-gradient(to right, #f6bf70, #d65593);
+}
+.yt .topborder{
+    background-color: #b7082c;
+}
+.yt .partfooter span{
+    color: #b7082c;
+}
+
+
+/*Overview*/
+.overview h2{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.overview-part{
+    margin-top: 36px;
+}
+.overview-part .partheader{
+    margin-bottom: 30px;
+}
+.overview-part img{
+    width: 16px;
+}
+.overview-part h3{
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+.overview-part .up span{
+    font-size: 12px;
+    color: green;
+}
+.overview-part .up{
+    width: 12px;
+    margin-right: 4px;
+}
+.overview-part .down span{
+    font-size: 12px;
+    color: #b7082c;
+}
+.overview-part .down{
+    width: 12px;
+    margin-right: 4px;
+}
